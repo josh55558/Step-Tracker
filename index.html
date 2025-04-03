@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon copy.ico">
+</head>
+<body>
+    <main>
+
+        <header>
+            <h1 id="wel">Step Tracker</h1>
+        </header>
+
+        <section>
+            <div>
+                <label for="goal">Your Goal</label>
+                <input type="number" id="myGoal" placeholder="Enter Number of steps">
+            </div>
+
+            <div>
+                <label for="stepTaken">Step Taken</label>
+                <input type="number" id="myStep" placeholder="Enter Number of steps">
+            </div>
+
+            <div>
+                <label for="makeTime">Did you make time</label>
+                <input type="number" id="madeIt" placeholder="Enter time you wanted to finish">
+            </div>
+
+            <button onclick=stepTracker()>Submit</button>
+
+        </section>
+
+        <section>
+            <h2 id="output"></h2>
+        </section>
+        
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
